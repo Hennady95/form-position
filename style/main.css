@@ -1,0 +1,95 @@
+padding: 0;
+body{
+    margin: 0;
+    text-align: center;   
+}
+
+.wrap {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.circle-left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circle-left-top:hover {
+    z-index: 7;
+    background-color: turquoise;
+}
+
+.circle-right-top {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circle-right-top:hover {
+    z-index: 7;
+    background-color: violet;
+}
+
+.circle-left-bottom {
+    position: absolute;
+    top: 60%;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circle-left-bottom:hover {
+    z-index: 7;
+    background-color: brown;
+}
+
+.circle-right-bottom {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circle-right-bottom:hover {
+    z-index: 7;
+    background-color: darkslategray;
+}
+
+.square-main {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    height: 60%;
+    width: 60%;
+    background-color: blue;
+}
+
+.square-main:hover {
+    z-index: 7;
+    background-color: darkgreen;
+}
+
+.square-middle {
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    height:33%;
+    width: 33%;
+    border-radius: 15%;
+    background-color: orange;
+}
